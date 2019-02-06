@@ -7,8 +7,8 @@ public class HelloWorldCode {
 
 	public static void main(String[] args) 
 	{
-	    long presumableFreeMemory = Runtime.getRuntime().maxMemory();
-	    System.out.println("The amount of free memory is: " + presumableFreeMemory);
+	    	long presumableFreeMemory = Runtime.getRuntime().maxMemory();
+	        System.out.println("The amount of free memory is: " + presumableFreeMemory);
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 		Date date = new Date();
 		System.out.println(dateFormat.format(date));
